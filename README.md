@@ -1,4 +1,5 @@
 # Webpack5
 
-[Руководство по настройке Webpack](https://webpack.js.org/guides/)
-[Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)
+[![Build status](https://ci.appveyor.com/api/projects/status/3jykb6apmx7a591g?svg=true)](https://ci.appveyor.com/project/GalinaNetishina/js-forms)
+
+[ GitHub Actions](https://galinanetishina.github.io/js-forms/)

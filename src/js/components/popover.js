@@ -27,7 +27,7 @@ export default class Popover {
     toggleDisplay(e) {
         e.preventDefault()
         const trigger = e.target
-        const {x, y, width, height} = trigger.getBoundingClientRect()
+        // const {x, y, width, height} = trigger.getBoundingClientRect()
         this.popover.style.left = `${50}%`
         this.popover.style.bottom = `${20}%`
         this.visible ? this.hide(): this.show()
@@ -38,7 +38,5 @@ export default class Popover {
     bindToDOM() {
         const myButton = this._element.querySelector('.pop_btn');
         myButton.addEventListener('click', (e) => this.toggleDisplay(e));
-        // const myPopover = this.parentEl.querySelector(this.myPopover);
-        // myPopover.addEventListener('click', () => this.toggleDisplay());
       }
 }
