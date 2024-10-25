@@ -1,0 +1,58 @@
+form {
+    width: 50%;
+    margin: 0 25%;
+    height: 300px;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.popover {
+    border: 1px solid grey;
+    position: absolute;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    max-width: 400px;
+}
+
+.popover-header {
+    margin: 0;
+    width: 100%;
+    background-color: aliceblue;
+
+}
+
+.pop_btn {
+    padding:5px 20px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+    width: 50%
+}
+
+.popover-body {
+    margin: 5px;
+}
+
+.arrow {
+    background-color: #fff;
+    width: 20px;
+    position: relative;
+}
+
+.arrow::after {
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-top-color: grey;
+    border-width: 10px;
+}

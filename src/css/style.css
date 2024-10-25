@@ -1,0 +1,11 @@
+body {
+    color: #999;
+}
+
+.news-widget {
+    list-style-type: none;
+}
+
+.news-widget .news-item {
+    color: orangered;
+}
